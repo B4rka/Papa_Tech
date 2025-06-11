@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--primary-font);
+    p {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Définition de la police générale du site  */
+:root {
+    --primary-font: "Barlow Semi Condensed";
+    --primary-color:rgb(235 202	253	);
+    --secondary-color: rgb(112	150	194	);
+}
+
+/*STYLE POUR LE HEADER DU SITE*/
+header {
+    height: 35vh;
+    background-color: var(--primary-color);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials-container {
+    font-size: 35px;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
+    a {
+        text-decoration: none;
+        color: var(--secondary-color);
+    }
+    a:hover {
+        color: white;
+        transition: color 0.3s;
+    }
+}
+
+header img {
+    max-width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    a {
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-size: 1.7rem;
+    }
+    a:hover {
+        color: white;
+        transition: color 0.3s;
+    }
+}
+
+/* STYLE PAGE D'ACCUEIL */
+.main-index {
+    article {
+        width: 400px;
+        border: none;
+        box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        margin-bottom: 2rem;
+        h3 {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+.left-article {
+    margin-left: 15%;
+}
+
+.right-article {
+    margin-left: 50%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*STYLE PAGE CONTACT*/
+.contact-page {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.message-sent {
+    text-align: center;
+    margin-inline: 6rem;
+    margin-top: 2rem;
+}
+
+article {
+    border: solid black 2px;
+    border-radius: 32px;
+}
+
+.reservation {
+    width: 500px;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+
+.contact-title {
+    margin-left: 2rem;
+}
+
+.contact-form {
+    margin: 1rem;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    margin-top: 0.3rem;
+}
+/*FIN TYLE PAGE CONTACT*/
+
+
+/* STYLE FOOTER*/
+footer {
+    background: linear-gradient(337deg, var(--secondary-color) 13%, white 91%);
+    background-color: var(--secondary-color);
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        a {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.footer-infos p {
+    margin-bottom: 1rem;
+}
+
+footer img {
+    max-width: 200px;
+    border-radius: 32px;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+#active {
+    font-weight: bold;
+    text-decoration: underline;
+}
