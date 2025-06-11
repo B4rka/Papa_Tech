@@ -3,7 +3,7 @@
         'name' => 'philippe/papa-tech',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8f39b726207a081f43822ab1ed2efd62a8369ceb',
+        'reference' => 'bc82e38a0fc47e36100533d5feca55978daaad1a',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'philippe/papa-tech' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8f39b726207a081f43822ab1ed2efd62a8369ceb',
+            'reference' => 'bc82e38a0fc47e36100533d5feca55978daaad1a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

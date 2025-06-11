@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: papa-tech
+    runtime: docker
+    repo: https://github.com/B4rka/Papa_Tech
+    plan: free
+    dockerfilePath: ./Dockerfile
