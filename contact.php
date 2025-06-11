@@ -4,6 +4,9 @@
     
     require __DIR__ . '/vendor/autoload.php';
 
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv->load();
+
     $current_page = basename($_SERVER['PHP_SELF']);
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -13,12 +16,12 @@
         try {
             // Config Mailtrap
             $mail->isSMTP();
-            $mail->Host = 'sandbox.smtp.mailtrap.io';
+            $mail->Host = $_ENV['MAIL_HOST'];
+            $mail->Port = $_ENV['MAIL_PORT'];
             $mail->SMTPAuth = true;
-            $mail->Username = '30ef9ea8e4b109'; // Copie depuis ton tableau Mailtrap
-            $mail->Password = '01719077bb1f76';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->Port = 587;
+            $mail->Username = $_ENV['MAIL_USERNAME'];
+            $mail->Password = $_ENV['MAIL_PASSWORD'];
         
             // Infos expéditeur/destinataire
             $mail->setFrom("{$_POST['email']}", "{$_POST['nom']}");
@@ -96,10 +99,11 @@
             <article class="informations">
                 <h3>Papa Tech</h3>
                 <ul>
-                    <br><li>Basée à Villeneuve d'Ascq</li>
+                    <br><li>Métropole Lilloise</li>
+                    <li><i class="bi bi-broadcast-pin"></i> France métropolitaine</li>
                     <li>7 jours / 7</li><br>
-                    <li><i class="bi bi-phone"></i> 06.12.34.56.78</li>
-                    <li><i class="bi bi-envelope-at"></i> papa-tech@gmail.com</li>
+                    <li><i class="bi bi-phone"></i> 06 98 20 92 88</li>
+                    <li><i class="bi bi-envelope-at"></i> papa59tech@gmail.com</li>
                 </ul>
             </article>
         </div>

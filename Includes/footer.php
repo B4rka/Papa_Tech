@@ -3,9 +3,10 @@
         <img src="/Images/logo transparent.png" class="footer-logo" alt="Papa Tech logo">
     </div>
     <div class="footer-infos">
-        <p><i class="bi bi-house-door-fill"></i> Villeneuve d'Ascq</p>
-        <p><i class="bi bi-envelope-fill"></i> papa-tech@gmail.com</p>
-        <p><i class="bi bi-phone-fill"></i> 06.12.34.56.78</p>
+        <p><i class="bi bi-house-door-fill"></i> Métropole Lilloise</p>
+        <p><i class="bi bi-broadcast-pin"></i> France métropolitaine</p>
+        <p><i class="bi bi-envelope-fill"></i> papa59tech@gmail.com</p>
+        <p><i class="bi bi-phone-fill"></i> 06 98 20 92 88</p>
     </div>
     <div class="footer-nav">
         <a href="/index.php" id="<?= ($current_page == 'index.php') ? 'active' : '' ?>">Accueil</a>

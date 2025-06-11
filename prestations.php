@@ -19,7 +19,7 @@
     <?php include __DIR__ . "/Includes/header.php"; ?>
 
     <main>
-        <h1>Nos prestations et tarifs</h1>
+        <h1>Nos prestations</h1>
     </main>
 
     <?php include __DIR__ . "/Includes/footer.php"; ?>
