@@ -146,6 +146,82 @@ article {
 }
 /*FIN TYLE PAGE CONTACT*/
 
+/* STYLE PAGE PRESTATIONS */
+.tarifs-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.tarifs-title {
+    border-bottom: solid 2px black;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.offres {
+    display: flex;
+    align-self: flex-end;
+    width:300px;
+    justify-content: space-between;
+    p {
+        margin: 0;
+    }
+}
+
+.offre-container {
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    width: 850px;
+    text-align: center;
+    align-items: center;
+    h4 {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.offre-texte {
+    width: 50%;
+    h3 {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.offre-tarif-standard {
+    width:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+}
+
+.offre-tarif-sénior {
+    width:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    padding-right: 1rem;
+}
+
+#tarif-standard-perso {
+    margin-top: auto;
+    justify-content: flex-end;
+    p {
+        margin-bottom: 0.5rem;
+    }
+}
+
+#tarif-sénior-perso {
+    margin-top: auto;
+    justify-content: flex-end;
+    p {
+        margin-bottom: 0.5rem;
+    }
+}
 
 /* STYLE FOOTER*/
 footer {
