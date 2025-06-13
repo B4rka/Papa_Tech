@@ -163,19 +163,24 @@ article {
 
 .offres {
     display: flex;
-    align-self: flex-end;
-    width:300px;
-    justify-content: space-between;
+    justify-content: flex-end;
+    width:100%;
     p {
         margin: 0;
     }
+}
+
+.offres-description {
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
 }
 
 .offre-container {
     display: flex;
     border-bottom: 2px solid black;
     justify-content: space-between;
-    width: 850px;
+    width: 100%;
     text-align: center;
     align-items: center;
     h4 {
@@ -220,6 +225,16 @@ article {
     justify-content: flex-end;
     p {
         margin-bottom: 0.5rem;
+    }
+}
+
+/* STYLE PAGE ABOUT */
+.main-about {
+    width: 75%;
+    text-align: center;
+    margin-inline: auto;
+    h1 {
+        margin-bottom: 2rem;
     }
 }
 

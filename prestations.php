@@ -25,8 +25,10 @@
         <div class="tarifs-container">
             <h2 class="tarifs-title">Papa Tech - Tarifs 2025</h2>
             <h3 class="offres">
-                <p>Offre Standard</p>
-                <p>Offre Sénior</p>
+                <div class="offres-description">
+                    <p>Offre Standard</p>
+                    <p>Offre Sénior</p>
+                </div>
             </h3>
             <h3>A domicile</h3>
             <div class="offre-container">

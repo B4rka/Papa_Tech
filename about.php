@@ -19,8 +19,17 @@
 
     <?php include __DIR__ . "/Includes/header.php"; ?>
 
-    <main>
-        <h1>Notre équipe :</h1>
+    <main class="main-about">
+        <h1>Notre mission :</h1>
+        <p>Notre mission, chez Papa Tech, c'est avant tout votre sérénité. Nous oeuvrons pour que votre matériel informatique 
+            n'ait plus de secrets pour vous. Grâce à nos formations abordables, nous vous accompagnons pas à pas dans la maîtrise de vos appareils.
+        </p>
+        <h1>Nos valeurs :</h1>
+        <p>Nous croyons que tout le monde devrait avoir accès à un environnement technologique complet aussi bien pour se faciliter la vie 
+            ou profiter du confort qu'offre le 21e siècle. C'est pour cela que nous proposons des prix plus attractifs pour les séniors.
+            Il est toujours plus difficile de s'adapter et de changer ses habitudes après une vie entière passée sans technologie mais pour nous, c'est une raison supplémentaire 
+            pour leur offrir notre aide et notre bienveillance pour que les séniors puissent eux-aussi en profiter.
+        </p>
     </main>
 
     <?php include __DIR__ . "/Includes/footer.php"; ?>
