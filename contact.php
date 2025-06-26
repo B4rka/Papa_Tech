@@ -66,7 +66,6 @@
                 <h3>Merci pour votre message !</h3>
                 <p>Votre message a bien été envoyé ! Nous vous recontacterons dans les plus bref délais.</p>
                 <p>Merci et à bientôt !</p>
-                
             </article>
             <script>
                 window.history.replaceState(null, '', window.location.pathname);
